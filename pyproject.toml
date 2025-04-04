@@ -1,0 +1,25 @@
+[project]
+name = "chetan"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tridib Roy Arjo", email = "softmetricltd@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "groq>=0.18.0",
+    "instructor>=1.7.2",
+    "ipykernel>=6.29.5",
+    "llama-cpp-python>=0.3.7",
+    "ollama>=0.4.7",
+    "openai>=1.68.0",
+    "pydantic>=2.10.5",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "termcolor>=2.5.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
